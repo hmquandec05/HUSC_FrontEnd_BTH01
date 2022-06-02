@@ -1,0 +1,113 @@
+* {	
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-decoration: none;
+    color: black;
+}
+body { 
+    color: black;
+    line-height:21px;
+    font-size:14px;
+    overflow-x:hidden;
+    background:#fff;
+    position:initial;
+}
+.header-logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 67px;
+    position: absolute;
+}
+a:hover {
+    color: orangered;
+}
+.header-navbar {
+    top: -10px;
+    margin-right: 13px;
+    position: relative;
+}
+#header-navbar-top > ul > li {
+    float: left;
+    
+} 
+#header-navbar-top > ul {
+    margin-right: 45px;
+}
+.dau {
+    margin-right: 15px;
+    margin-left: 15px; 
+}
+.ba-cham {
+    margin-left: 40px;
+    color: rgb(182, 173, 173);
+}
+.header-navbar-bottom {
+    top: -13px;
+    margin-left: 40px;
+    position: relative;
+}
+#menu-bar {
+    position: relative;
+    top: 105px;
+    left: 10px;
+} 
+ul {
+    list-style: none;
+}
+
+#menu-bar > ul > li {
+    background-color: #fff;
+    display: inline-block;
+    text-align: start; 
+    padding: 0px 16px;
+}
+#menu-bar > ul > li {
+    height: 30px;   
+}
+.Sản-phẩm > ul {
+    display: none;
+    position: absolute;
+    width: 210px;
+    left: 160px;
+    top: 30px;
+    background-color: #fff;
+    color: orangered;
+    border-top: solid orangered
+}
+.Sản-phẩm:hover > ul {
+    display: block;
+    z-index: 1; 
+}
+.Sản-phẩm > ul > li {
+    padding: 13px 0px;
+    left: -22px;
+    position: relative;
+}
+.Sản-phẩm > ul > li:hover {
+    color: orangered;
+}
+.header-navbar{
+    float: right;
+    display: inline-table;
+
+}
+input {
+    float: right;
+    position: relative;
+    border: none;
+    width: 305px;
+    height: 38px;
+    left: 325px;
+    top: 48px;
+    background-color: rgb(235, 235, 235);
+
+}
+.slider > img {
+    top: 30px;
+    position: relative;
+    height: 450px;
+    width: 1350px;
+
+}
+
+
